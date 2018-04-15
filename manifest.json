@@ -1,0 +1,15 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.nicovideo.jp/*",
+        "https://www.amazon.co.jp/s/ref=atv_*",
+        "https://www.amazon.co.jp/b/?node=3535604051"
+      ],
+      "js": ["content-script.js"]
+    }
+  ],
+  "manifest_version": 2,
+  "name": "furaga.webblock",
+  "version": "1.0.0"
+}
