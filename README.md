@@ -5,9 +5,9 @@ In this implementation, ニコニコ動画 and some amazon's pages will be block
 
 # How to install
 
-- Access chrome://extensions/
-- Turn on "Developer mode`
-- Click "LOAD UNPACKED" and load `./webblock`
+1. Access chrome://extensions/
+2. Turn on "Developer mode`
+3. Click "LOAD UNPACKED" and load `./webblock`
 
 Then, you will find you cannnot acceess urls matching the following patterns.
 - `http://*.nicovideo.jp/*`
